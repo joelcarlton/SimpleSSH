@@ -1,5 +1,5 @@
 #!/bin/bash
-# Source: http://github.com/joelcarlton/Simple-SSH
+# Source: http://github.com/joelcarlton/SimpleSSH
 # License: GNU GENERAL PUBLIC LICENSE Version 2, June 1991
 
 # Global Variables

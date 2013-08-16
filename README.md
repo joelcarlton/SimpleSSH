@@ -1,4 +1,4 @@
-# Simple-SSH
+# SimpleSSH
 
 A Menu based shell script
 
