@@ -57,3 +57,11 @@ SimpleSSH was designed to take the effort out of port forwarding, binding ports,
 The script will need execute permissions. They can be added with `chmod u+x simplessh.sh` or `chmod 740 simplessh.sh`.
 
 If the script is in the system path it can be executed with the following `$ simplessh`. If running from a directery, run with `$ ./simplessh.sh`.
+
+## Platforms
+
+SimpleSSH has only been tested on Mac OS X
+
+## License
+
+GNU GENERAL PUBLIC LICENSE Version 2, June 1991
