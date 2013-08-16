@@ -1,32 +1,28 @@
-Simple-SSH
-==========
+# Simple-SSH
 
 A Menu based shell script
 
 SimpleSSH was designed to take the effort out of port forwarding, binding ports, and forwarding X11."
 
-Created
-=======
+### Created
 
 12/08/11
 
-Version
-=======                     
+### Version                     
 
 1.3
                         
-Release Notes
-=============
+## Release Notes
 
-1.0     09/12/11
+### 1.0     09/12/11
 
 - Initial build with case.
 
-1.1     11/08/11
+### 1.1     11/08/11
 
 - Added Windows Remote Desktop Port under Forwarding popular ports.
 
-1.2             12/04/11        
+### 1.2             12/04/11        
 
 - Implemented looping for menus so there is now an option for rerunning the script if there is an error.
 - Added global functions to optimize code
@@ -41,18 +37,23 @@ Release Notes
 - Added "Enter for Default" to SSH, Bind, and Forwarding offering suggestions and speeding up data entry for common ports such as 22.
 - Changed encryption methods from individual variables to an array.
 
-1.3     12/05/11        
+### 1.3     12/05/11        
 
 - Added information on how to configure a SOCKS Proxy on Mac OS X, Windows PuTTY, and Firefox
 - Added manual for SimpleSSH under Main Menu > Instructions > General Help
 - Added information on how to utilize X11 on Mac OS X and Windows.
 - Added more comments throught code for more clarity
 
-Upcoming Features
-=================
+## Upcoming Features
 
 Socket Cleaning
 netstat tuna | grep server
 ps -A | grep port
 kill -9 pid
 netstat tuna | grep server # to double check
+
+## Usage
+
+``` bash
+$ ./simplessh.sh
+```
