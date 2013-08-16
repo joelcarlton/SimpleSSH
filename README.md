@@ -1,8 +1,6 @@
 # SimpleSSH
 
-A Menu based shell script
-
-SimpleSSH was designed to take the effort out of port forwarding, binding ports, and forwarding X11."
+SimpleSSH is a menu based shell script designed to take the effort out of port forwarding, binding ports, and forwarding X11.
 
 ### Created
 
